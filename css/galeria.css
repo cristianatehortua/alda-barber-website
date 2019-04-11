@@ -1,0 +1,80 @@
+*{
+    padding: 0%;
+margin: 0%;
+box-sizing: border-box;
+}
+body {
+    font-family: sans-serif;
+    
+}
+
+.cabesera {
+    
+    width: 100%;
+    height: 18%;
+    background:  url('../imagenes/fondo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    font-size: 50px;
+
+    
+}
+
+h1 {
+    color:black;
+}
+
+.galeria {
+    width: 95%;
+    margin: auto;
+    height: 60%;
+    margin-top: 5%;
+    background: black;
+    
+    
+    
+    
+}
+
+.galeria ul {
+   list-style: none;
+   
+   
+}
+
+.galeria ul li {
+    
+    padding: 0px;
+    width: 100%;
+    
+}
+
+.galeria img {
+    width: 10%;
+    float: left;
+    padding: 10px;
+    
+    
+    
+    
+
+}
+
+.galeria img:hover {
+    background: #ccc;
+    color: black; 
+    -webkit-transform: scale(1.2,1.2); 
+    -moz-transform: scale(1.2,1.2); 
+    -ms-transform: scale(1.5,1.5); 
+    -o-transform: scale(1.5,1.5); 
+    transform: scale(1.5,1.5);
+    -webkit-transition: all .8s linear; 
+    -moz-transition: all .8s linear;
+    -ms-transition: all .8s linear; 
+    -o-transition: all .8s linear;
+    transition: all .8s linear;
+   
+
+
+}
